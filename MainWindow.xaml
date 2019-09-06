@@ -1,0 +1,201 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="399" Width="284">
+    <Grid Name="fiel" Tag="gameField">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock00" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock01" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock02" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock03" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock04" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock05" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock06" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock07" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock08" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="0"></TextBlock>
+        <TextBlock x:Name="textBlock10" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock11" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock12" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock13" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock14" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock15" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock16" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock17" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock18" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="1"></TextBlock>
+        <TextBlock x:Name="textBlock20" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock21" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock22" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock23" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock24" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock25" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock26" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock27" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock28" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="2"></TextBlock>
+        <TextBlock x:Name="textBlock30" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock31" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock32" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock33" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock34" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock35" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock36" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock37" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock38" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="3"></TextBlock>
+        <TextBlock x:Name="textBlock40" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock41" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock42" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock43" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock44" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock45" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock46" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock47" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock48" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="4"></TextBlock>
+        <TextBlock x:Name="textBlock50" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock51" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock52" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock53" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock54" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock55" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock56" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock57" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock58" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="5"></TextBlock>
+        <TextBlock x:Name="textBlock60" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock61" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock62" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock63" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock64" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock65" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock66" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock67" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock68" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="6"></TextBlock>
+        <TextBlock x:Name="textBlock70" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock71" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock72" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock73" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock74" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock75" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock76" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock77" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock78" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="7"></TextBlock>
+        <TextBlock x:Name="textBlock80" TextAlignment ="Center" Width="30" Height="20" Grid.Column="0" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock81" TextAlignment ="Center" Width="30" Height="20" Grid.Column="1" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock82" TextAlignment ="Center" Width="30" Height="20" Grid.Column="2" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock83" TextAlignment ="Center" Width="30" Height="20" Grid.Column="3" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock84" TextAlignment ="Center" Width="30" Height="20" Grid.Column="4" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock85" TextAlignment ="Center" Width="30" Height="20" Grid.Column="5" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock86" TextAlignment ="Center" Width="30" Height="20" Grid.Column="6" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock87" TextAlignment ="Center" Width="30" Height="20" Grid.Column="7" Grid.Row="8"></TextBlock>
+        <TextBlock x:Name="textBlock88" TextAlignment ="Center" Width="30" Height="20" Grid.Column="8" Grid.Row="8"></TextBlock>
+
+        <Button x:Name="button00" Width="30" Height="30" Grid.Column="0" Grid.Row="0"></Button>
+        <Button x:Name="button01" Width="30" Height="30" Grid.Column="1" Grid.Row="0"></Button>
+        <Button x:Name="button02" Width="30" Height="30" Grid.Column="2" Grid.Row="0"></Button>
+        <Button x:Name="button03" Width="30" Height="30" Grid.Column="3" Grid.Row="0"></Button>
+        <Button x:Name="button04" Width="30" Height="30" Grid.Column="4" Grid.Row="0"></Button>
+        <Button x:Name="button05" Width="30" Height="30" Grid.Column="5" Grid.Row="0"></Button>
+        <Button x:Name="button06" Width="30" Height="30" Grid.Column="6" Grid.Row="0"></Button>
+        <Button x:Name="button07" Width="30" Height="30" Grid.Column="7" Grid.Row="0"></Button>
+        <Button x:Name="button08" Width="30" Height="30" Grid.Column="8" Grid.Row="0"></Button>
+        <Button x:Name="button10" Width="30" Height="30" Grid.Column="0" Grid.Row="1"></Button>
+        <Button x:Name="button11" Width="30" Height="30" Grid.Column="1" Grid.Row="1"></Button>
+        <Button x:Name="button12" Width="30" Height="30" Grid.Column="2" Grid.Row="1"></Button>
+        <Button x:Name="button13" Width="30" Height="30" Grid.Column="3" Grid.Row="1"></Button>
+        <Button x:Name="button14" Width="30" Height="30" Grid.Column="4" Grid.Row="1"></Button>
+        <Button x:Name="button15" Width="30" Height="30" Grid.Column="5" Grid.Row="1"></Button>
+        <Button x:Name="button16" Width="30" Height="30" Grid.Column="6" Grid.Row="1"></Button>
+        <Button x:Name="button17" Width="30" Height="30" Grid.Column="7" Grid.Row="1"></Button>
+        <Button x:Name="button18" Width="30" Height="30" Grid.Column="8" Grid.Row="1"></Button>
+        <Button x:Name="button20" Width="30" Height="30" Grid.Column="0" Grid.Row="2"></Button>
+        <Button x:Name="button21" Width="30" Height="30" Grid.Column="1" Grid.Row="2"></Button>
+        <Button x:Name="button22" Width="30" Height="30" Grid.Column="2" Grid.Row="2"></Button>
+        <Button x:Name="button23" Width="30" Height="30" Grid.Column="3" Grid.Row="2"></Button>
+        <Button x:Name="button24" Width="30" Height="30" Grid.Column="4" Grid.Row="2"></Button>
+        <Button x:Name="button25" Width="30" Height="30" Grid.Column="5" Grid.Row="2"></Button>
+        <Button x:Name="button26" Width="30" Height="30" Grid.Column="6" Grid.Row="2"></Button>
+        <Button x:Name="button27" Width="30" Height="30" Grid.Column="7" Grid.Row="2"></Button>
+        <Button x:Name="button28" Width="30" Height="30" Grid.Column="8" Grid.Row="2"></Button>
+        <Button x:Name="button30" Width="30" Height="30" Grid.Column="0" Grid.Row="3"></Button>
+        <Button x:Name="button31" Width="30" Height="30" Grid.Column="1" Grid.Row="3"></Button>
+        <Button x:Name="button32" Width="30" Height="30" Grid.Column="2" Grid.Row="3"></Button>
+        <Button x:Name="button33" Width="30" Height="30" Grid.Column="3" Grid.Row="3"></Button>
+        <Button x:Name="button34" Width="30" Height="30" Grid.Column="4" Grid.Row="3"></Button>
+        <Button x:Name="button35" Width="30" Height="30" Grid.Column="5" Grid.Row="3"></Button>
+        <Button x:Name="button36" Width="30" Height="30" Grid.Column="6" Grid.Row="3"></Button>
+        <Button x:Name="button37" Width="30" Height="30" Grid.Column="7" Grid.Row="3"></Button>
+        <Button x:Name="button38" Width="30" Height="30" Grid.Column="8" Grid.Row="3"></Button>
+        <Button x:Name="button40" Width="30" Height="30" Grid.Column="0" Grid.Row="4"></Button>
+        <Button x:Name="button41" Width="30" Height="30" Grid.Column="1" Grid.Row="4"></Button>
+        <Button x:Name="button42" Width="30" Height="30" Grid.Column="2" Grid.Row="4"></Button>
+        <Button x:Name="button43" Width="30" Height="30" Grid.Column="3" Grid.Row="4"></Button>
+        <Button x:Name="button44" Width="30" Height="30" Grid.Column="4" Grid.Row="4"></Button>
+        <Button x:Name="button45" Width="30" Height="30" Grid.Column="5" Grid.Row="4"></Button>
+        <Button x:Name="button46" Width="30" Height="30" Grid.Column="6" Grid.Row="4"></Button>
+        <Button x:Name="button47" Width="30" Height="30" Grid.Column="7" Grid.Row="4"></Button>
+        <Button x:Name="button48" Width="30" Height="30" Grid.Column="8" Grid.Row="4"></Button>
+        <Button x:Name="button50" Width="30" Height="30" Grid.Column="0" Grid.Row="5"></Button>
+        <Button x:Name="button51" Width="30" Height="30" Grid.Column="1" Grid.Row="5"></Button>
+        <Button x:Name="button52" Width="30" Height="30" Grid.Column="2" Grid.Row="5"></Button>
+        <Button x:Name="button53" Width="30" Height="30" Grid.Column="3" Grid.Row="5"></Button>
+        <Button x:Name="button54" Width="30" Height="30" Grid.Column="4" Grid.Row="5"></Button>
+        <Button x:Name="button55" Width="30" Height="30" Grid.Column="5" Grid.Row="5"></Button>
+        <Button x:Name="button56" Width="30" Height="30" Grid.Column="6" Grid.Row="5"></Button>
+        <Button x:Name="button57" Width="30" Height="30" Grid.Column="7" Grid.Row="5"></Button>
+        <Button x:Name="button58" Width="30" Height="30" Grid.Column="8" Grid.Row="5"></Button>
+        <Button x:Name="button60" Width="30" Height="30" Grid.Column="0" Grid.Row="6"></Button>
+        <Button x:Name="button61" Width="30" Height="30" Grid.Column="1" Grid.Row="6"></Button>
+        <Button x:Name="button62" Width="30" Height="30" Grid.Column="2" Grid.Row="6"></Button>
+        <Button x:Name="button63" Width="30" Height="30" Grid.Column="3" Grid.Row="6"></Button>
+        <Button x:Name="button64" Width="30" Height="30" Grid.Column="4" Grid.Row="6"></Button>
+        <Button x:Name="button65" Width="30" Height="30" Grid.Column="5" Grid.Row="6"></Button>
+        <Button x:Name="button66" Width="30" Height="30" Grid.Column="6" Grid.Row="6"></Button>
+        <Button x:Name="button67" Width="30" Height="30" Grid.Column="7" Grid.Row="6"></Button>
+        <Button x:Name="button68" Width="30" Height="30" Grid.Column="8" Grid.Row="6"></Button>
+        <Button x:Name="button70" Width="30" Height="30" Grid.Column="0" Grid.Row="7"></Button>
+        <Button x:Name="button71" Width="30" Height="30" Grid.Column="1" Grid.Row="7"></Button>
+        <Button x:Name="button72" Width="30" Height="30" Grid.Column="2" Grid.Row="7"></Button>
+        <Button x:Name="button73" Width="30" Height="30" Grid.Column="3" Grid.Row="7"></Button>
+        <Button x:Name="button74" Width="30" Height="30" Grid.Column="4" Grid.Row="7"></Button>
+        <Button x:Name="button75" Width="30" Height="30" Grid.Column="5" Grid.Row="7"></Button>
+        <Button x:Name="button76" Width="30" Height="30" Grid.Column="6" Grid.Row="7"></Button>
+        <Button x:Name="button77" Width="30" Height="30" Grid.Column="7" Grid.Row="7"></Button>
+        <Button x:Name="button78" Width="30" Height="30" Grid.Column="8" Grid.Row="7"></Button>
+        <Button x:Name="button80" Width="30" Height="30" Grid.Column="0" Grid.Row="8"></Button>
+        <Button x:Name="button81" Width="30" Height="30" Grid.Column="1" Grid.Row="8"></Button>
+        <Button x:Name="button82" Width="30" Height="30" Grid.Column="2" Grid.Row="8"></Button>
+        <Button x:Name="button83" Width="30" Height="30" Grid.Column="3" Grid.Row="8"></Button>
+        <Button x:Name="button84" Width="30" Height="30" Grid.Column="4" Grid.Row="8"></Button>
+        <Button x:Name="button85" Width="30" Height="30" Grid.Column="5" Grid.Row="8"></Button>
+        <Button x:Name="button86" Width="30" Height="30" Grid.Column="6" Grid.Row="8"></Button>
+        <Button x:Name="button87" Width="30" Height="30" Grid.Column="7" Grid.Row="8"></Button>
+        <Button x:Name="button88" Width="30" Height="30" Grid.Column="8" Grid.Row="8"></Button>
+        <TextBlock x:Name="Total" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="9" />
+        <Button x:Name="Restart" Content="Restart" Height="20"  Grid.Row="10" Grid.Column="3" Grid.ColumnSpan="3" BorderBrush="Black"></Button>
+    </Grid>
+</Window>
